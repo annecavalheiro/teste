@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NAVEGAMAZON - Guia Turístico de Manaus</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f8f9f9;
+    color: #10221a;
+  }
+  header {
+    background-color: #00724e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .register-btn {
+    background-color: white;
+    color: #00724e;
+    padding: 8px 14px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .register-btn:hover {
+    background-color: #e6f3ed;
+  }
+  nav {
+    background-color: #f1f3f2;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px;
+  }
+  nav div {
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  nav div:hover {
+    transform: scale(1.1);
+  }
+  nav img {
+    width: 60px;
+    height: 60px;
+  }
+  main {
+    padding: 30px 20px;
+    text-align: center;
+  }
+  .section-title {
+    font-size: 22px;
+    color: #00724e;
+    margin-bottom: 10px;
+  }
+  .curiosidades {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 0 auto 40px auto;
+    max-width: 800px;
+  }
+  .curiosidades p {
+    font-size: 17px;
+    margin: 12px 0;
+    line-height: 1.5em;
+  }
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .galeria img {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  .galeria img:hover {
+    transform: scale(1.05);
+  }
+  footer {
+    margin-top: 40px;
+    background-color: #00724e;
+    color: white;
+    padding: 14px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <button class="register-btn">Cadastrar</button>
+  <h1>NAVEGAMAZON</h1>
+</header>
+
+<nav>
+  <div>
+    <img src="https://cdn-icons-png.flaticon.com/512/3039/3039436.png" alt="Eventos">
+    <p>Eventos Futuros</p>
+  </div>
+  <div>
+    <img src="https://cdn-icons-png.flaticon.com/512/854/854929.png" alt="Como chegar">
+    <p>Como Chegar</p>
+  </div>
+  <div>
+    <img src="https://cdn-icons-png.flaticon.com/512/3523/3523063.png" alt="Restaurantes">
+    <p>Restaurantes</p>
+  </div>
+  <div>
+    <img src="https://cdn-icons-png.flaticon.com/512/2838/2838788.png" alt="Bares">
+    <p>Bares</p>
+  </div>
+  <div>
+    <img src="https://cdn-icons-png.flaticon.com/512/3208/3208757.png" alt="Locais culturais">
+    <p>Locais Culturais</p>
+  </div>
+</nav>
+
+<main>
+  <section class="curiosidades">
+    <h2 class="section-title">Curiosidades do Centro Histórico de Manaus</h2>
+    <p>O Centro Histórico de Manaus abriga construções da época do ciclo da borracha, como o Teatro Amazonas e o Mercado Adolpho Lisboa, que revelam o luxo e a riqueza do período.</p>
+    <p>Você sabia que o piso da Praça São Sebastião foi inspirado no calçadão de Lisboa? Ele representa o encontro das águas dos rios Negro e Solimões.</p>
+    <p>O Relógio Municipal, instalado em 1927, é um dos pontos mais fotografados da cidade e simboliza o coração do centro manauara.</p>
+  </section>
+
+  <h2 class="section-title">Fotos do Centro Histórico</h2>
+  <div class="galeria">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Teatro_Amazonas_Manaus_2018.jpg" alt="Teatro Amazonas">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Mercado_Municipal_Adolpho_Lisboa_-_Manaus_AM.jpg" alt="Mercado Adolpho Lisboa">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Porto_de_Manaus_01.jpg" alt="Porto de Manaus">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Encontro_das_%C3%81guas_Manaus.jpg" alt="Encontro das Águas">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Pal%C3%A1cio_Rio_Negro_-_Manaus.jpg" alt="Palácio Rio Negro">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Praca_Sao_Sebastiao_Manaus_2020.jpg" alt="Praça São Sebastião">
+  </div>
+</main>
+
+<footer>
+  <p>© 2025 NAVEGAMAZON | Desenvolvido para promover a cultura baré e o turismo no coração de Manaus.</p>
+</footer>
+
+</body>
+</html>
